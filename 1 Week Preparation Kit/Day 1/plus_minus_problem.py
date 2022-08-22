@@ -8,25 +8,25 @@ The test cases are scaled to six decimal places, though answers with absolute er
 
 
 def plus_minus(arr):
-    # Total number in array
+    # * Total number in array
     total_count = len(arr)
 
-    # Calculate negative number
+    # * Calculate negative number
     negative_count = len(list(filter(lambda x: (x < 0), arr)))
 
-    # Calculate positive number
+    # * Calculate positive number
     positive_count = len(list(filter(lambda x: (x > 0), arr)))
 
-    # Calculate zero number
+    # * Calculate zero number
     zero_count = len(list(filter(lambda x: (x == 0), arr)))
 
-    # proportion of positive values
+    # * proportion of positive values
     print(round(positive_count / total_count, 5))
 
-    # proportion of negative values
+    # * proportion of negative values
     print(round(negative_count / total_count, 5))
 
-    # proportion of zeros
+    # * proportion of zeros
     print(round(zero_count / total_count, 5))
 
 
