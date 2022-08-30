@@ -14,7 +14,9 @@ class Solution:
         for i in range(len(s)):
             si, ti = s[i], t[i]
 
-            if (si in map_st and map_st[si] != ti) or (ti in map_ts and map_ts[ti] != si):
+            if (si in map_st and map_st[si] != ti) or (
+                ti in map_ts and map_ts[ti] != si
+            ):
                 return False
             map_st[si] = ti
             map_ts[ti] = si
