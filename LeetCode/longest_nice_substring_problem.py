@@ -13,7 +13,6 @@ If there are none, return an empty string.
 
 class Solution:
     def longest_nice_substring(self, s: str) -> str:
-
         if len(s) < 2:
             return ""
 

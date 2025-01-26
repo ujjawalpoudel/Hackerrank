@@ -20,7 +20,6 @@ def mini_max_sum(arr):
 
 
 if __name__ == "__main__":
-
     arr = list(map(int, input().rstrip().split()))
 
     mini_max_sum(arr)

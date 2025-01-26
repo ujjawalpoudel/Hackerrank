@@ -25,7 +25,6 @@ def jumping_on_clouds(c):
 
 
 if __name__ == "__main__":
-
     n = int(input().strip())
 
     c = list(map(int, input().rstrip().split()))

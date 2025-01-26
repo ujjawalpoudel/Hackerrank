@@ -27,7 +27,6 @@ def time_conversion(s):
 
 
 if __name__ == "__main__":
-
     s = input()
 
     result = time_conversion(s)
