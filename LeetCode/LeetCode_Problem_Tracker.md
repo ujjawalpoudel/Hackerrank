@@ -23,6 +23,7 @@ This repository tracks my progress in solving LeetCode problems. It includes pro
 | 134 | Gas Station | Hard | Retry | Hard, need to try again | [Link](https://leetcode.com/problems/gas-station/description/?envType=study-plan-v2&envId=top-interview-150) |
 | 135 | Candy | Hard | Retry | Hard, need to try once more | [Link](https://leetcode.com/problems/candy/?envType=study-plan-v2&envId=top-interview-150) |
 | 42 | Trapping Rain Water | Hard | Retry | Hard, need to try again | [Link](https://leetcode.com/problems/trapping-rain-water/description/?envType=study-plan-v2&envId=top-interview-150)
+| 75 | Sort Colors | Medium | Retry | Medium, need to try again | [Link](https://leetcode.com/problems/sort-colors/description/)
 
 ---
 
