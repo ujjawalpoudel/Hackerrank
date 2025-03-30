@@ -15,6 +15,7 @@ Expected output: 2
 
 from typing import List
 
+
 def binary_search(nums: List[int], target: int) -> int:
     """
     Performs binary search on a sorted array to find the index of the target.
@@ -48,13 +49,13 @@ print(f"Index of {x}: {binary_search(arr, x)}")  # Expected output: 2
 
 # Additional test cases to validate the implementation
 test_cases = [
-    ([1, 3, 7, 10, 14, 20], 7, 2),   # Target exists in the middle
-    ([1, 3, 7, 10, 14, 20], 1, 0),   # Target is the first element
+    ([1, 3, 7, 10, 14, 20], 7, 2),  # Target exists in the middle
+    ([1, 3, 7, 10, 14, 20], 1, 0),  # Target is the first element
     ([1, 3, 7, 10, 14, 20], 20, 5),  # Target is the last element
     ([1, 3, 7, 10, 14, 20], 5, -1),  # Target does not exist
-    ([1], 1, 0),                     # Single element array, target present
-    ([1], 2, -1),                    # Single element array, target absent
-    ([], 5, -1)                      # Empty array
+    ([1], 1, 0),  # Single element array, target present
+    ([1], 2, -1),  # Single element array, target absent
+    ([], 5, -1),  # Empty array
 ]
 
 # Running test cases

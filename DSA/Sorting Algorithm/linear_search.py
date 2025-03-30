@@ -13,6 +13,7 @@ Expected output: 3
 
 from typing import List
 
+
 def linear_search(nums: List[int], target: int) -> int:
     """
     Perform linear search on the list of integers to find the target value.
@@ -23,7 +24,7 @@ def linear_search(nums: List[int], target: int) -> int:
     """
     if not isinstance(nums, list):
         raise ValueError("The first argument must be a list.")
-    
+
     for idx, num in enumerate(nums):
         if num == target:
             return idx
@@ -55,12 +56,16 @@ print(f"Test 4 (Target is 15): {linear_search(arr, target)}")  # Expected: 5
 # 5. Test case with only one element, where the target is present.
 arr = [100]
 target = 100
-print(f"Test 5 (Target is 100, single element): {linear_search(arr, target)}")  # Expected: 0
+print(
+    f"Test 5 (Target is 100, single element): {linear_search(arr, target)}"
+)  # Expected: 0
 
 # 6. Test case with only one element, where the target is absent.
 arr = [100]
 target = 50
-print(f"Test 6 (Target is 50, single element): {linear_search(arr, target)}")  # Expected: -1
+print(
+    f"Test 6 (Target is 50, single element): {linear_search(arr, target)}"
+)  # Expected: -1
 
 # 7. Edge case: Empty array.
 arr = []
@@ -70,9 +75,13 @@ print(f"Test 7 (Empty array): {linear_search(arr, target)}")  # Expected: -1
 # 8. Test case where the target is repeated multiple times.
 arr = [1, 3, 5, 7, 7, 7, 9]
 target = 7
-print(f"Test 8 (Target is 7, repeated): {linear_search(arr, target)}")  # Expected: 3 (first occurrence)
+print(
+    f"Test 8 (Target is 7, repeated): {linear_search(arr, target)}"
+)  # Expected: 3 (first occurrence)
 
 # 9. Test case with large array and target at the end.
 arr = list(range(1, 1000000))
 target = 999999
-print(f"Test 9 (Target is 999999 in large array): {linear_search(arr, target)}")  # Expected: 999998 (index of 999999)
+print(
+    f"Test 9 (Target is 999999 in large array): {linear_search(arr, target)}"
+)  # Expected: 999998 (index of 999999)
