@@ -1,9 +1,14 @@
 """
-Question:
-You are given an array of integers:
+Linear Search Algorithm
+
+You are given an array of integers `arr` and a target integer `x`. Implement a function that 
+performs a linear search to determine the index of `x` in `arr`. If `x` is found, return its index. 
+Otherwise, return -1.
+
+Example:
 arr = [10, 23, 45, 70, 11, 15]
-Write a function that takes this array and a target value as input and returns the index of the target using Linear Search.
-If the target is not found, return -1.
+x = 70
+Expected output: 3
 """
 
 from typing import List
